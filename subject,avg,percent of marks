@@ -1,0 +1,13 @@
+#include<stdio.h>
+main()
+{
+	int t,h,e,m,s,soc,total,avg,percent;
+	printf("t,h,e,m,s,soc");
+	scanf("%d%d%d%d%d%d",&t,&h,&e,&m,&s,&soc);
+	total=t+h+e+m+s+soc;
+	avg=(t+h+e+m+s+soc)/6;
+	percent=total/6;
+	printf("total=%d\n",total);
+	printf("avg=%d\n",avg);
+	printf("percent=%d",percent);
+}
